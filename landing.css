@@ -1,0 +1,113 @@
+
+/*#A6AEBF grey
+#C5D3E8 blue
+#D0E8C5 green
+#FFF8DE cream
+*/
+.landing
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+/*The container is a grid of 2 columns as 1 row*/
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:5rem;
+}
+
+.card-ssntuli
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+.card-ntulikid
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+.pp
+{
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+}
+
+.header
+{
+    position: fixed;
+    width:100%;
+    background-color:#f1efe8;
+    top: 0;  
+}
+
+.web-logo
+{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.web-color
+{
+    color: #C5D3E8;
+}
+
+.name
+{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #C5D3E8;
+    text-decoration: none;
+
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.social-media
+{
+    width: 1.5rem;
+    
+}
+
+@media(max-width:600px)
+{
+
+.landing
+{ 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+
+.pp
+    {
+        border-radius: 50%;
+        height: 10rem;
+        width: 10rem;
+    }
+
+.container
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap:0.5rem;
+    }
+}

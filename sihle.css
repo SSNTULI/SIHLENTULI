@@ -1,0 +1,153 @@
+/* grid container to hold the logo and the navigatio*/
+.top-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: #f1efe8;
+    /* box-shadow: 1px 1xp 1px 1px black; */
+
+}
+/* logo styling */
+.header{
+    grid-area: 1 / 1 /2 /1;
+    margin: 0;
+}
+
+.web-logo
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.web-color
+{
+    color: #C5D3E8;
+}
+
+/* Navigation Styling*/
+
+.sihle-nav-container{
+    grid-area: 2/2/2/2;
+    margin: 0;
+
+}
+
+.sihle-nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.sihle-nav>li{
+    text-align: left;
+    font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sihle-nav>li a{
+    text-decoration: none;
+    color:black
+}
+
+.current-page{
+    color: #A6AEBF;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer */
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.social-media
+{
+    width: 1.5rem;
+    
+}
+
+/*Main body*/
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 85vh;
+}
+
+.profile-img-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    height: 65%;
+}
+
+.img-descr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-img-div>.img-descr>img{
+    width: 19rem;
+    border-radius: 50%;
+}
+.profile-img-div>.img-descr>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    width:30%
+}
+
+.profile-img-div>.img-descr>p>span{
+    color:#A6AEBF;
+    font-size: 1.05rem;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    gap: -1;
+}
+
+.circle-selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.circle>a{
+    text-decoration: none;
+}
+
+.project-circle{
+    background-color:#D0E8C5;
+}
+
+.paper-circle{
+    background-color:#C5D3E8;
+}
+.Resume-circle{
+    background-color:#A6AEBF;
+}
+
+
+
+
+

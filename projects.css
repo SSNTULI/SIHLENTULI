@@ -1,0 +1,121 @@
+/* grip container to hold the logo and the navigatio*/
+.top-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: #f1efe8;
+    /* box-shadow: 1px 1xp 1px 1px black; */
+
+}
+/* logo styling */
+.header{
+    grid-area: 1 / 1 /2 /1;
+    margin: 0;
+}
+
+.web-logo
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.web-color
+{
+    color: #C5D3E8;
+}
+
+/* Navigation Styling*/
+
+.sihle-nav-container{
+    grid-area: 2/2/2/2;
+    margin: 0;
+
+}
+
+.sihle-nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.sihle-nav>li{
+    text-align: left;
+    font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sihle-nav>li a{
+    text-decoration: none;
+    color:black
+}
+
+.current-page{
+    color: #A6AEBF;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Body*/
+
+.main-container{
+    display: flex; 
+    padding-top: 3rem;
+    height: 100%;
+    gap: 10px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.project-1{
+    width: 30%;
+    background-color: #C5D3E8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:justify;
+
+}
+
+.project-2{
+    width: 30%;
+    background-color:antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:justify;
+}
+
+.project-3{
+    width: 30%;
+    background-color:#D0E8C5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:justify;
+}
+
+.project-4{
+    width: 30%;
+    background-color:#A6AEBF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:justify;
+}
+
+
+
+/* Footer */
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.social-media
+{
+    width: 1.5rem;  
+}
+
